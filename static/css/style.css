@@ -1,0 +1,327 @@
+﻿
+/*******首页********/
+/*banner*/
+.index__banner{
+	position: relative;
+}
+.bannerTopCon{
+	position: absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	z-index: 10;
+	color:#fff;
+	top:50%;
+	margin-top:-183px;
+	
+}
+.bannerTopCon .con{
+	height: 366px;
+	overflow: hidden;
+}
+.bannerTopCon .title{
+	font-weight: normal;
+	/*font-size: 40px;*/
+	font-size: 64.01px;
+	margin-bottom: 10px;
+}
+.bannerTopCon .title strong{
+	font-size: 88.01px;
+	font-weight: bold;
+}
+.bannerTopCon .en-title{
+	font-size: 36.42px;
+	line-height: 1.4;
+	font-family: arial;
+}.bannerTopCon .en-title strong{
+	font-size: 38.7px;
+	font-weight: bold;
+}
+.bannerTopCon .BtnList{
+	margin-top:62px;
+}
+.bannerTopCon .BtnList .btn{
+	line-height: 56px;
+	border:1px solid #5b8de9;
+	background: rgba(91,141,233,.26);
+	border-radius: 50px;
+	width: 185px;
+	font-size: 26.67px;
+	color:#fff;
+	margin-right: 28px;
+}
+.section {
+	padding:35px 0;
+}
+.section_1{
+	/*background: url(../images/section_bg1.jpg) center no-repeat;
+	background-size: cover;*/
+	background-color:#FF9966;
+	color:#fff;
+	/*padding:135px 0;*/
+	/*padding:100px 0;*/
+}
+.section_1 a{
+	color:#fff;
+}
+.section__hd{
+	padding:12px 0;
+	margin-bottom: 70px;
+	text-align: center;
+}
+.section__title{
+	font-size: 64.01px;	
+}
+.section__hd .en-title {
+	font-size: 32px;	
+}
+.section__hd .subTitle{
+	font-size: 56.01px;
+}
+.navIconList li{
+	float: left;
+	text-align: center;
+	font-size:32px;
+}
+.navIconList li .outside{
+	display: block;
+	margin:0 25px;
+}
+.navIconList li .icon{
+	margin-bottom: 30px;
+}
+.navIconList li .icon img{
+	margin: 0 auto;
+}
+.navIconList li .btn{
+	display: block;
+	width: 190px;
+	border:1px solid #fff;
+	line-height: 55px;
+	text-align: center;
+	border-radius: 50px;
+	margin:0 auto;
+}
+.section_1 .navIconList{
+	/*padding:100px 0;*/
+	padding:50px 0 200px 0;
+}
+.section_1 .navIconList li .icon{
+	/*margin-bottom: 82px;*/
+	margin-bottom: 50px;
+}
+
+
+/*联系方式*/
+.section_3{
+	background: url(../images/section_bg3.jpg) center no-repeat;
+	background-size: cover;
+	/*padding:170px 0;*/
+	padding:20px 0 65px;
+	color:#fff;
+}
+/*.section_3 .inner{
+	padding:100px 0 120px;
+	background: rgba(255,255,255,.84);
+}
+.section_3 .inner:after{
+	display: inline-block;
+	height:100%;
+	content:"";
+	vertical-align: middle;
+}*/
+/*.section_3 .contact {
+	display: inline-block;
+	font-size: 0;
+	vertical-align: middle;
+	width: 100%;
+}
+.section_3 .contact .section__hd {
+	padding-top:0;
+	padding-bottom: 0;
+}*/
+.contactBox .section__hd .section__title{
+	font-size: 64.01px;
+	text-align:center;
+}
+.contactBox{
+	padding:80px 100px;
+	font-size: 0;
+  }
+.contactBox:after,
+.contactBox:before{
+	content: "";
+	display: block;
+	clear: both;
+}
+.contactBox .left{
+ 	color:#fff;
+	font-size: 24px;
+	text-align:center;
+ }
+.contactBox .left p{
+	margin-bottom: 4px;
+}
+.contactBox .right{
+	float: right;
+}
+.contactBox .btnBox{
+	margin-top:62px;
+}
+.contactBox .btnBox .btn{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-right:55px;
+}
+.contactBox .btnBox .btn:last-child{
+	margin-right: 0;
+}
+.contactBox .btnBox .icon-weixin{
+	background: url(../images/icon-weixin.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.contactBox .btnBox .icon-QQ{
+	background: url(../images/icon-qq.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.contactBoxAll{
+	position: relative;
+	height: 473px;
+	background: url(../images/contact_bg.jpg) center no-repeat;
+	background-size: 100% 100%;
+}
+.contactBoxAll .contactBox{
+	
+}
+
+
+
+
+/*弹窗*/
+/*登录*/
+/*.shade__login{
+	
+}
+.loginReg__form .line{
+	margin-bottom: 28px;
+}
+.loginReg__form .line .label{
+	width: 96px;
+	text-align: right;
+	font-size: 21.34px;
+	color:#484848;
+	margin-right: 24px;
+	float: left;
+	height: 56px;
+	line-height: 56px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.loginReg__form .line .iptBox{
+	margin-left:120px;
+	border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+}
+.loginReg__form .line.bb_line .iptBox{
+	border:1px solid #c9c9c9;
+}
+.loginReg__form .line .iptBox .ipt{
+	line-height: 54px;
+	height: 54px;
+	font-size: 20px;
+	color:#484848;
+	padding-left:64px;
+	padding-right: 20px;
+}
+.ipt::-webkit-input-placeholder{
+	color:#b5b5b5;
+}
+.ipt::-ms-input-placeholder{
+	color:#b5b5b5;
+}
+.ipt::-moz-placeholder{
+	color:#b5b5b5;
+}
+.loginReg__form .line .iptBox .icon{
+	position: absolute;
+	width: 55px;
+	content: "";
+	height: 100%;
+	top:0;
+	left:0;
+	z-index: 2;
+}
+.loginReg__form .btnLine .iptBox{
+	border:none;
+}
+.loginReg__form .btnLine .btn{
+	line-height: 54px;
+	display: block;
+	border:1px solid #518bf3;
+	background-color: #518bf3;
+	color:#fff;
+	font-size: 26px;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+.loginReg__form .aLine .iptBox{
+	text-align: center;
+	font-size: 18px;
+}
+.loginReg__form .aLine .iptBox a{
+	margin-right: 75px;
+	color:#3976e3;
+}
+.loginReg__form .aLine .iptBox a:last-child{
+	margin-right: 0;
+}*/
+
+
+/*支持主流电商平台*/
+.mainstream__section{
+	/*background: url(../images/ma_bg.jpg) center no-repeat;
+	background-size: cover;*/
+	color:#fff;
+	padding-bottom:0;
+	min-height: 600px;
+	background:#464ADF;
+}
+.swiperImg img {
+	max-width: 100%;
+	width: auto;
+}
+
+
+/*平台郑重承诺*/
+.promise__section{
+	/*background: url(../images/promise_bg.jpg) center no-repeat;
+	background-size: cover;*/
+	color:#fff;
+	background:#643BBF;
+}
+.promise__section .swiperImg img{
+	margin:0 auto;
+}
+
+/*平台四大增值服务*/
+.service_section{
+/*	background: url(../images/service_bg.jpg) center no-repeat;
+	background-size: cover;*/
+	background-color:#6699FF;
+	color:#fff;
+}
+.service_section .swiperImg{
+	padding:40px 0 100px 0;
+}
+
+
+
+
+
+
+
